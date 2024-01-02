@@ -39,7 +39,7 @@ class _SplashScreenState extends State<SplashScreen> {
             Align(
               alignment: Alignment.center,
               child: Image.asset(
-                Helper.getAssetName("MealMonkeyLogo.png", "virtual"),
+                Helper.getAssetName("logo_food.jpg", "virtual"),
               ),
             ),
           ],
