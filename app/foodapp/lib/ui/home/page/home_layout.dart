@@ -150,7 +150,7 @@ class HomeLayout extends StatelessWidget {
                             Helper.getAssetName("pizza2.jpg", "real"),
                             fit: BoxFit.cover,
                           ),
-                          name: "Mulberry Pizza by Josh",
+                          name: "Pizza do Zé",
                         ),
                       ),
                       RecentItemCard(
@@ -158,13 +158,13 @@ class HomeLayout extends StatelessWidget {
                             Helper.getAssetName("rice.jpg", "real"),
                             fit: BoxFit.cover,
                           ),
-                          name: "Barita"),
+                          name: "Comida Gostosa"),
                       RecentItemCard(
                           image: Image.asset(
                             Helper.getAssetName("rice2.jpg", "real"),
                             fit: BoxFit.cover,
                           ),
-                          name: "Pizza Rush Hour"),
+                          name: "Vem que tem"),
                     ],
                   ),
                 ),
@@ -233,7 +233,7 @@ class MostPopularCard extends StatelessWidget {
             SizedBox(
               width: 5,
             ),
-            Text("Western Food"),
+            Text("Rio de Janeiro"),
             SizedBox(
               width: 20,
             ),
@@ -314,7 +314,7 @@ class RecentItemCard extends StatelessWidget {
                     SizedBox(
                       width: 5,
                     ),
-                    Text("Western Food"),
+                    Text("Rio de Janeiro"),
                     SizedBox(
                       width: 20,
                     ),
@@ -335,7 +335,7 @@ class RecentItemCard extends StatelessWidget {
                       ),
                     ),
                     SizedBox(width: 10),
-                    Text('(124) Ratings')
+                    Text('(124) votações')
                   ],
                 )
               ],
